@@ -13,7 +13,7 @@ function Ventas() {
             cantidad:'9',
             precio:e.target.precio.value,
             cliente:'String',
-            total:'Number'
+            total:'0'
         } ;
 
         axios.post(`http://localhost:3001/ventas/agregar` ,   ventasSchema   )
